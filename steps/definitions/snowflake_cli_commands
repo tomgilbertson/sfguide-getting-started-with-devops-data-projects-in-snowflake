@@ -1,0 +1,10 @@
+snow project create DEVOPS_HOL_STAGE
+snow connection test
+
+a data project is a snowflake object
+
+snow project dry-run DEVOPS_HOL
+
+snow project add-version DEVOPS_HOL
+
+can also run previous versions, even though it defaults to latest

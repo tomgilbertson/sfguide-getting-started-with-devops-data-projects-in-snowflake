@@ -1,4 +1,5 @@
 -- SCHEMAS:
+--snowflake figures out the order, so schemas can be defined before databases
 --Bronze
 {% set DB = 'BRONZE'%}
 DEFINE SCHEMA {{DB}}_{{ENV}}_DB.ADT_FEEDS;
